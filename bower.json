@@ -1,0 +1,16 @@
+{
+  "name": "autofocus",
+  "version": "0.0.0",
+  "authors": [
+    "bitliner <giovanni.gaglione@gmail.com>"
+  ],
+  "main": "auto-focus.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
