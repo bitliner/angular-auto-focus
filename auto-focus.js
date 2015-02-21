@@ -8,9 +8,13 @@ angular.module('bitliner.autoFocus', [])
                 scope.$watch(function() {
                     return attrs.autoFocus;
                 }, function(value) {
-                    $timeout(function() {
-                        element[0].focus();
-                    });
+
+                    if (value || value === 'true') {
+                        $timeout(function() {
+                            element[0].focus();
+                        }, 0);
+                    }
+
                 }, true);
 
             }
